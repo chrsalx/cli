@@ -39,7 +39,7 @@ Build an image from a Dockerfile
 | `--shm-size`              | `bytes`       | `0`       | Size of `/dev/shm`                                                |
 | `--squash`                |               |           | Squash newly built layers into a single new layer                 |
 | `-t`, `--tag`             | `list`        |           | Name and optionally a tag in the `name:tag` format                |
-| `--target`                | `string`      |           | Set the target build stage to build.                              |
+| `--target`                | `string`      |           | Set the target build stage to build. If no target is specified, the target will be the last stage defined in the Dockerfile                              |
 | `--ulimit`                | `ulimit`      |           | Ulimit options                                                    |
 
 
